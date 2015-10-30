@@ -15,6 +15,7 @@
 		CD5618E51BDC8081008C2A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5618E31BDC8081008C2A22 /* LaunchScreen.storyboard */; };
 		CD5618F01BDC8081008C2A22 /* SwiftNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5618EF1BDC8081008C2A22 /* SwiftNewsTests.swift */; };
 		CD5618FB1BDC8081008C2A22 /* SwiftNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5618FA1BDC8081008C2A22 /* SwiftNewsUITests.swift */; };
+		CD5619091BDD13C7008C2A22 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5619081BDD13C7008C2A22 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD5618F61BDC8081008C2A22 /* SwiftNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5618FA1BDC8081008C2A22 /* SwiftNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNewsUITests.swift; sourceTree = "<group>"; };
 		CD5618FC1BDC8081008C2A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5619081BDD13C7008C2A22 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CD5618D71BDC8081008C2A22 /* AppDelegate.swift */,
 				CD5618D91BDC8081008C2A22 /* ViewController.swift */,
 				CD5618DB1BDC8081008C2A22 /* Main.storyboard */,
+				CD5619081BDD13C7008C2A22 /* DetailController.swift */,
 				CD5618E11BDC8081008C2A22 /* Assets.xcassets */,
 				CD5618E31BDC8081008C2A22 /* LaunchScreen.storyboard */,
 				CD5618E61BDC8081008C2A22 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5619091BDD13C7008C2A22 /* DetailController.swift in Sources */,
 				CD5618DA1BDC8081008C2A22 /* ViewController.swift in Sources */,
 				CD5618E01BDC8081008C2A22 /* SwiftNews.xcdatamodeld in Sources */,
 				CD5618D81BDC8081008C2A22 /* AppDelegate.swift in Sources */,
